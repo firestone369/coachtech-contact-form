@@ -1,0 +1,40 @@
+.thanks {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.thanks-message {
+    font-size: 32px;
+    font-weight: bold;
+    color: #8b7d72;
+    margin-bottom: 20px;
+    z-index: 1;
+}
+
+.thanks-form {
+    z-index: 1;
+}
+
+.home-button {
+    width: 120px;
+    padding: 10px 0;
+    background-color: #8b7d72;
+    color: #ffffff;
+    font-family:serif;
+    border: none;
+    cursor: pointer;
+}
+
+.thanks-bg {
+    position: absolute;
+    font-size: 360px;
+    color: rgba(0, 0, 0, 0.03);
+    font-family: "Palatino Linotype", Palatino, serif;
+    white-space: nowrap;
+    user-select: none;
+}

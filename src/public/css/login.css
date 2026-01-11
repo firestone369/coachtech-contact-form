@@ -1,0 +1,109 @@
+.login-page {
+    background: #efe7df;
+    min-height: calc(100vh - 80px);
+    padding: 50px 0 80px;
+}
+
+.page-title {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 400;
+    color: #7a6a5c;
+    font-family: "Palatino Linotype", Palatino, serif;
+    margin: 20px 0 30px;
+}
+
+.login-card {
+    width: 520px;
+    margin: 0 auto;
+    background: #fff;
+    border: 1px solid #e3d8cf;
+    border-radius: 4px;
+    padding: 50px 60px;
+    box-sizing: border-box;
+}
+
+.login-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.login-table th {
+    width: auto;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 400;
+    color: #7a6a5c;
+    padding: 0 0 6px;
+    vertical-align: top;
+}
+
+.login-table td {
+    padding: 0 0 18px;
+}
+
+.login-input {
+    width: 100%;
+    height: 34px;
+    background: #f6f1ec;
+    border: 1px solid #efe2d8;
+    border-radius: 2px;
+    padding: 0 10px;
+    box-sizing: border-box;
+    outline: none;
+    color: #5f5248;
+    font-size: 12px;
+}
+
+.login-input::placeholder {
+    color: #b9aa9f;
+}
+
+/* エラー（赤文字・各項目の下） */
+.error {
+    margin-top: 6px;
+    font-size: 12px;
+    color: #c0392b;
+}
+
+.login-actions {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.login-btn {
+    width: 120px;
+    height: 34px;
+    border: none;
+    background: #6f6258;
+    color: #fff;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.login-btn:hover {
+    opacity: 0.9;
+}
+
+/* ヘッダー右上の register ボタン*/
+.header-btn {
+    display: inline-block;
+    padding: 4px 10px;
+    border: 1px solid #d6c9bf;
+    background: #f8f4f0;
+    color: #d6c9bf;
+    font-family: "Palatino Linotype", Palatino, serif;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.header-btn:hover {
+    opacity: 0.9;
+}
+
+.site-header__right {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}

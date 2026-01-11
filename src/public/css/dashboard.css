@@ -1,0 +1,247 @@
+.admin-page {
+    min-height: calc(100vh - 80px);
+    padding: 40px 0 80px;
+}
+
+.page-title {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 400;
+    color: #7a6a5c;
+    font-family: "Palatino Linotype", Palatino, serif;
+    margin: 10px 0 25px;
+}
+
+.search-form {
+    width: 1100px;
+    margin: 0 auto 10px;
+}
+
+.search-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.search-table td {
+    padding: 6px;
+    vertical-align: middle;
+}
+
+.w-keyword {
+    width: 38%;
+}
+
+.w-gender {
+    width: 12%;
+}
+
+.w-category {
+    width: 20%;
+}
+
+.w-date {
+    width: 14%;
+}
+
+.w-btn {
+    width: 8%;
+}
+
+.search-input,
+.search-select {
+    width: 100%;
+    height: 34px;
+    background: #fff;
+    border: 1px solid #e3d8cf;
+    border-radius: 2px;
+    padding: 0 10px;
+    box-sizing: border-box;
+    font-size: 12px;
+    color: #5f5248;
+}
+
+/* エクスポート + ページネート */
+.sub-row {
+    width: 1100px;
+    margin: 0 auto 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* ボタン共通 */
+.btn {
+    display: inline-block;
+    height: 32px;
+    line-height: 32px;
+    padding: 0 14px;
+    border: 1px solid #d6c9bf;
+    background: #f8f4f0;
+    color: #7a6a5c;
+    font-size: 12px;
+    text-decoration: none;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+.btn-search {
+    background: #6f6258;
+    color: #fff;
+    border: none;
+}
+
+.btn-reset {
+    background: #d8c6b9;
+    color: #fff;
+    border: none;
+}
+
+.btn-export {
+    background: #eee6df;
+}
+
+/* 詳細ボタン */
+.btn-detail {
+    height: 22px;
+    line-height: 22px;
+    padding: 0 10px;
+    font-size: 11px;
+    border: 1px solid #e6ddd5;
+    background: #faf6f2;
+    color: #8a7a6d;
+}
+
+/* 一覧テーブル */
+.list-table {
+    width: 1100px;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background: #fff;
+    border: 1px solid #e3d8cf;
+}
+
+.list-table thead th {
+    background: #6f6258;
+    color: #fff;
+    font-weight: 400;
+    font-size: 12px;
+    padding: 12px;
+    text-align: center;
+}
+
+.list-table tbody td {
+    font-size: 12px;
+    color: #5f5248;
+    padding: 12px;
+    border-top: 1px solid #f0e7df;
+    text-align: center;
+}
+
+/* 一覧テーブル：ホバー */
+.list-table tbody tr:hover {
+    background-color: #f6f1ec;
+}
+
+.col-actions {
+    width: 90px;
+}
+
+.actions {
+    text-align: center;
+}
+
+.empty {
+    padding: 20px;
+}
+
+/* ヘッダー右上 logoutボタン */
+.header-logout {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.header-btn {
+    display: inline-block;
+    padding: 4px 10px;
+    border: 1px solid #d6c9bf;
+    background: #f8f4f0;
+    color: #d6c9bf;
+    font-family: "Palatino Linotype", Palatino, serif;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.header-btn:hover {
+    opacity: 0.9;
+}
+
+/* ====================
+数字つきページネーション
+   ==================== */
+
+.pagination-wrap {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.admin-pagination {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.admin-pagination li {
+    margin: 0;
+    padding: 0;
+}
+
+.admin-pagination a,
+.admin-pagination span {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    min-width: 26px;
+    height: 26px;
+    line-height: 26px;
+
+    font-size: 11px;
+    color: #7a6a5c;
+    text-decoration: none;
+
+    border: 1px solid #e3d8cf;
+    background: #fff;
+    box-sizing: border-box;
+
+    margin-left: -1px;
+    border-radius: 0;
+}
+
+.admin-pagination li:first-child a,
+.admin-pagination li:first-child span {
+    margin-left: 0;
+}
+
+.admin-pagination .active span {
+    background: #6f6258;
+    color: #fff;
+    border-color: #6f6258;
+    z-index: 1;
+}
+
+.admin-pagination .disabled span {
+    color: #c0b6ad;
+    background: #f5f0eb;
+}
+
+.admin-pagination a:hover {
+    background: #f1eae4;
+}

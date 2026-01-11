@@ -1,0 +1,82 @@
+.confirm {
+    width: 100%;
+    padding: 30px 0 60px;
+    color: #7fbf9a;
+}
+
+.confirm-title {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 30px;
+    font-family: "Palatino Linotype", Palatino, serif;
+}
+
+.confirm-form {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.confirm-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #ffffff;
+}
+
+.confirm-table th,
+.confirm-table td {
+    border: 1px solid #eeeeee;
+    padding: 14px 16px;
+    font-size: 14px;
+}
+
+.confirm-table th {
+    width: 260px;
+    background-color: #b7a79b;
+    /* 左側の茶色 */
+    color: #ffffff;
+    font-weight: normal;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.confirm-table td {
+    color: #666666;
+    background-color: #ffffff;
+    vertical-align: middle;
+}
+
+/* お問い合わせ内容だけ高さが出るので上揃え */
+.message-row th,
+.message-row td {
+    vertical-align: top;
+}
+
+.message-row th {
+    padding-top: 16px;
+}
+
+.confirm-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-top: 30px;
+}
+
+.btn-submit {
+    width: 120px;
+    padding: 12px 0;
+    background-color: #8b7d72;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-back {
+    background: none;
+    border: none;
+    color: #7fbf9a;
+    cursor: pointer;
+    text-decoration: underline;
+    padding: 0;
+}
